@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: auto;
+    width: 100%;
+    height: 100px;
+
+
+}
+body{
+    width: 100%;
+    height: 900px ;
+}
+.rotback{
+    background-image: linear-gradient(to right ,rgb(233, 53, 53), rgb(79, 79, 243));
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+    rotate: 34px;
+    transform: rotate(8deg);
+   
+    
+}
+.mainwin{
+    background-image: linear-gradient(to right, rgb(143, 47, 143),rgb(226, 75, 38));
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    bottom: 8% ;
+    box-shadow: 1px 1px 10px 2.5px rgb(10, 12, 14);
+    transform: rotate(-8deg);
+  }
+  .text{
+    width:40%;
+    word-spacing: 1px;
+    color: aliceblue;
+    position: absolute;
+    top: 20px;
+    left:20px;
+    & > h1{
+        position: relative;
+        top: 40px;
+    }
+
+  }    
+  img{
+    height: 250px;
+    width: 30%;
+    position: relative;
+    left: 67%;
+    bottom: 650px;
+
+  }
+  img:hover{
+    height: 500px;
+    width: 60%;
+    position: relative;
+    left:40%;
+    transform: rotate(-3deg);
+
+    
+
+  }
